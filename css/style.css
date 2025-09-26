@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 /* monstertan */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+/*  quicksand*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
     margin: 0;
@@ -21,6 +22,7 @@
 
 header {
     width: 100%;
+    max-width: 1440px;
     height: 825px;
     background-color: rgba(169, 80, 148, 1);
     display: flex;
@@ -37,7 +39,7 @@ header {
     display: flex;
     justify-content: center;
     color: #fff;
-    font-family: "Old Standard TT", serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
 }
 
@@ -57,9 +59,9 @@ nav ul {
 
 .nav_a {
     color: #fff;
-    font-family: "Old Standard TT", serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    font-size: 10px;
 
 }
 
@@ -182,6 +184,107 @@ nav ul {
 
 .fa-arrow-right-long {
     color: rgba(255, 196, 100, 1);
+}
+
+@media(max-width:780px) {
+
+    .logoss {
+        margin-top: 50px;
+        position: absolute;
+        right: 610px;
+    }
+
+    .logo {
+        position: absolute;
+        left: -100px;
+        top: -29px;
+    }
+
+    nav ul {
+        width: 534px;
+        height: 20px;
+        font-family: "Quicksand", sans-serif;
+        position: absolute;
+        top: -70px;
+        left: 20px;
+        gap: 5px;
+        font-size: 16px;
+    }
+
+    .person_img {
+        width: 370px;
+        height: 360px;
+        position: absolute;
+        left: 166px;
+        top: 70px;
+        z-index: 1;
+    }
+
+    .logo_second {
+        position: absolute;
+        left: -870px;
+        top: 10px;
+    }
+
+    .logos_img {
+        position: absolute;
+        right: 100px;
+        top: 9px;
+        width: 23px;
+        height: 23px;
+    }
+
+    .header_btn {
+        width: 102px;
+        height: 35px;
+        position: absolute;
+        left: -720px;
+        top: 70px;
+    }
+
+    .header_text_h {
+        width: 264px;
+        height: 192px;
+        font-size: 26px;
+        top: 100px;
+        right: 440px;
+        text-align: center;
+    }
+
+    .header_text_p {
+        width: 380px;
+        height: 48px;
+        font-size: 16px;
+        position: absolute;
+        top: 200px;
+        left: 10px;
+    }
+
+    .header_text_btn {
+        width: 172px;
+        height: 45px;
+        position: absolute;
+        z-index: 1;
+        top: 510px;
+        left: 120px;
+    }
+
+    .black_text {
+        width: 580px;
+        height: 112px;
+        position: absolute;
+        top: 660px;
+        left: 50px;
+    }
+
+    .first_cards {
+        width: 697px;
+        height: 188px;
+    }
+    /* .first_card{
+        position: absolute;
+        top: 90px;
+    } */
 }
 
 .first_cards {
@@ -681,7 +784,8 @@ hr {
     justify-content: space-between;
     margin-left: 150px;
 }
-.fifth_section{
+
+.fifth_section {
     width: 1440px;
     height: 235px;
 }
