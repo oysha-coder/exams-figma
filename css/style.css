@@ -1,0 +1,687 @@
+/* old tt */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+/* monstertan */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+header {
+    width: 100%;
+    height: 825px;
+    background-color: rgba(169, 80, 148, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 135px;
+    background-image: url(/images/стриралка.png);
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 200px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+}
+
+.logos_img {
+    width: 23px;
+    height: 33px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 320px;
+    top: 45px;
+}
+
+.nav_a {
+    color: #fff;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.logo_second {
+    display: flex;
+    color: #fff;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 0px;
+    position: absolute;
+    margin-left: 890px;
+}
+
+.logo_second_img {
+    width: 20px;
+    height: 20px;
+}
+
+.header_btn {
+    width: 162px;
+    height: 55px;
+    color: rgba(255, 196, 100, 1);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 196, 100, 1);
+    background-color: transparent;
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 990px;
+}
+
+.person_img {
+    margin-left: -134px;
+    margin-top: 50px;
+}
+
+.header_text {
+    width: 664px;
+    height: 265px;
+    color: #fff;
+    font-family: "Old Standard TT", serif;
+}
+
+.header_text_h {
+    width: 664px;
+    font-weight: 800;
+    font-size: 67px;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+.header_text_p {
+    width: 460px;
+    position: absolute;
+    right: 300px;
+    top: 470px;
+    font-family: "Old Standard TT", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header_text_p_span {
+    color: rgba(255, 196, 100, 1);
+}
+
+.header_text_btn {
+    width: 222px;
+    height: 55px;
+    position: absolute;
+    top: 550px;
+    right: 540px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.black_text {
+    padding: 0px 20px;
+    width: 100%;
+    max-width: 1170px;
+    height: 49px;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    bottom: -90px;
+    right: 130px;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.black_text_h {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 196, 100, 1);
+}
+
+.black_text_p {
+    color: rgba(255, 196, 100, 1);
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.black_text_span {
+    color: #fff;
+}
+
+.fa-arrow-right-long {
+    color: rgba(255, 196, 100, 1);
+}
+
+.first_cards {
+    width: 1107px;
+    height: 230px;
+    padding: 50px 135px;
+    display: flex;
+    gap: 100px;
+}
+
+.first_card {
+    width: 207px;
+    height: 151px;
+}
+
+.first_card_h {
+    width: 207px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.first_section {
+    width: 100%;
+    max-width: 1440px;
+    height: 818px;
+    background-image: url(/images/picture\ bacground1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.first_section_text {
+    width: 476px;
+    height: 70px;
+    margin-left: 192px;
+    margin-top: 35px;
+}
+
+.first_section_text_p {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(169, 80, 148, 1);
+}
+
+.first_section_text_h {
+    width: 476px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.first_section_btns {
+    /* width: 594px;
+    height: 350px; */
+    margin-top: 124px;
+    position: absolute;
+    left: 192px;
+    top: 50px;
+}
+
+.first_btn {
+    width: 172px;
+    height: 54px;
+    border: none;
+    background-color: rgba(169, 80, 148, 1);
+    border-radius: 15px;
+
+}
+
+.first_btn_all {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.second_full_btn {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.third_all_btn {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.fourth_all_btn {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+
+}
+
+.second_btn {
+    width: 172px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.third_btn {
+    width: 197px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.fourth_btn {
+    width: 501px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.fifth_btn {
+    width: 215px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.sixth_btn {
+    width: 294px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+
+}
+
+.seventh_btn {
+    width: 173px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+
+}
+
+.eighth_btn {
+    width: 176px;
+    height: 54px;
+    border: 1px solid rgba(143, 58, 123, 0.905);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.ninth_btn {
+    width: 215px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.ten_btn {
+    width: 215px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.eleventh_btn {
+    width: 294px;
+    height: 54px;
+    border: 1px solid rgba(169, 80, 148, 1);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.first_section_second_text {
+    width: 417px;
+    height: 34px;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 635px;
+    left: 192px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.cross {
+    width: 34px;
+    height: 34px;
+}
+
+.second_section {
+    width: 971px;
+    height: 583px;
+}
+
+.second_section_h {
+    width: 359px;
+    margin-left: 541px;
+    margin-top: 55px;
+}
+
+.second_section_h3 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section_text {
+    width: 971px;
+    height: 419px;
+    margin-left: 250px;
+}
+
+.first_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.first_text_p2 {
+    margin-left: 390px;
+}
+
+.second_section_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 25px;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+.second_text_p2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(150, 49, 125, 1);
+}
+
+.third_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.third_text_p2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(150, 49, 125, 1);
+}
+
+.fourth_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.fourth_text_p2 {
+    margin-left: 290px;
+    font-weight: 500;
+    font-size: 18px;
+
+
+}
+
+.fifth_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.fifth_text_p2 {
+    margin-left: 350px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sixth_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.sixth_text_P2 {
+    margin-left: 300px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.return {
+    display: flex;
+    gap: 10px;
+    margin-left: 632px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+}
+
+.third_section {
+    width: 1440px;
+    height: 1034px;
+    background-color: rgba(211, 211, 211, 0.459);
+    padding: 50px 135px;
+}
+
+.third_section_text {
+    width: 815px;
+    height: 74px;
+    margin-top: 134px;
+    margin-left: 313px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.third_section_cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.third_section_text_p {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(150, 49, 125, 1);
+}
+
+.third_section_text_h {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.card_p1 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.card_p2 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.second_icons {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 185px;
+    height: 97px;
+}
+
+.icon {
+    display: flex;
+    gap: 13px;
+    margin-bottom: 20px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(150, 49, 125, 1);
+}
+
+.third_section_img {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_img {
+    width: 102px;
+    height: 28px;
+}
+
+.third_section_img2 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.iconss4 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icons4 {
+    color: rgba(150, 49, 125, 1);
+}
+
+.third-section_p3 {
+    color: rgba(150, 49, 125, 1);
+}
+
+.fourth_section {
+    width: 1170px;
+    height: 582px;
+}
+
+.fourth_section_text {
+    width: 431px;
+    height: 52px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 505px;
+}
+
+.fourth_section_h {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.fourth_section_cards {
+    width: 570px;
+    height: 417px;
+    margin-left: 50px;
+    display: flex;
+    gap: 39px;
+}
+
+.card {
+    width: 570px;
+    height: 417px;
+    margin-left: 50px;
+
+}
+
+.card_texth4 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.cards_text2 {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.fourth_text_p4 {
+    width: 470px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.fourth_section_icon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.fifth_section{
+    width: 1440px;
+    height: 235px;
+}
