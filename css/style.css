@@ -187,11 +187,16 @@ nav ul {
 }
 
 @media(max-width:780px) {
+    header {
+        background-size: 234px 266px;
+        background-position-x: 30px;
+        background-position-y: 375px;
+    }
 
     .logoss {
         margin-top: 50px;
         position: absolute;
-        right: 610px;
+        right: 580px;
     }
 
     .logo {
@@ -206,7 +211,7 @@ nav ul {
         font-family: "Quicksand", sans-serif;
         position: absolute;
         top: -70px;
-        left: 20px;
+        left: -18px;
         gap: 5px;
         font-size: 16px;
     }
@@ -216,13 +221,13 @@ nav ul {
         height: 360px;
         position: absolute;
         left: 166px;
-        top: 70px;
+        top: 95px;
         z-index: 1;
     }
 
     .logo_second {
         position: absolute;
-        left: -870px;
+        left: -840px;
         top: 10px;
     }
 
@@ -246,18 +251,19 @@ nav ul {
         width: 264px;
         height: 192px;
         font-size: 26px;
-        top: 100px;
-        right: 440px;
+        top: 120px;
+        right: 420px;
         text-align: center;
     }
 
     .header_text_p {
-        width: 380px;
+        width: 420px;
         height: 48px;
         font-size: 16px;
         position: absolute;
-        top: 200px;
-        left: 10px;
+        top: 237px;
+        left: 15px;
+        text-align: center;
     }
 
     .header_text_btn {
@@ -270,21 +276,71 @@ nav ul {
     }
 
     .black_text {
-        width: 580px;
-        height: 112px;
-        position: absolute;
-        top: 660px;
-        left: 50px;
+        display: none;
     }
 
     .first_cards {
         width: 697px;
         height: 188px;
     }
-    /* .first_card{
+
+    .first {
         position: absolute;
-        top: 90px;
-    } */
+        bottom: -10px;
+        left: 60px;
+    }
+
+    .second1 {
+        position: absolute;
+        left: 300px;
+        bottom: -10px;
+    }
+
+    .third1 {
+        position: absolute;
+        left: 70px;
+        bottom: -180px;
+    }
+
+    .fourth2 {
+        position: absolute;
+        bottom: -180px;
+        left: 310px;
+        z-index: 1;
+    }
+
+    .first_section_text_h {
+        position: absolute;
+        top: 330px;
+        left: 40px;
+    }
+
+    .first_section_text_p {
+            position: absolute;
+          top: 290px;
+          left: 150px;
+        }
+
+    .first_section_btns {
+        display: none;
+    }
+
+    .stiralka {
+        width: 399px;
+        height: 541px;
+        position: absolute;
+        top: 400px;
+        left: 20px;
+    }
+.btn3{
+    width: 620px;
+    height: 63px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 900px;
+    text-align: center;
+}
+    /* .second1 {} */
 }
 
 .first_cards {
@@ -338,7 +394,7 @@ nav ul {
     width: 476px;
     font-family: "Old Standard TT", serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .first_section_btns {
