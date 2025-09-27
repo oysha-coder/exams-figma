@@ -188,21 +188,21 @@ nav ul {
 
 @media(max-width:780px) {
     header {
-        background-size: 234px 266px;
+        background-size: 344px 456px;
         background-position-x: 30px;
-        background-position-y: 375px;
+        background-position-y: 360px;
     }
 
     .logoss {
         margin-top: 50px;
         position: absolute;
-        right: 580px;
+        right: 480px;
     }
 
     .logo {
         position: absolute;
         left: -100px;
-        top: -29px;
+        top: -19px;
     }
 
     nav ul {
@@ -211,24 +211,24 @@ nav ul {
         font-family: "Quicksand", sans-serif;
         position: absolute;
         top: -70px;
-        left: -18px;
-        gap: 5px;
-        font-size: 16px;
+        left: 118px;
+        gap: 15px;
+        font-size: 20px;
     }
 
     .person_img {
-        width: 370px;
-        height: 360px;
+        width: 574px;
+        height: 547px;
         position: absolute;
-        left: 166px;
-        top: 95px;
+        left: 216px;
+        top: 108px;
         z-index: 1;
     }
 
     .logo_second {
         position: absolute;
-        left: -840px;
-        top: 10px;
+        left: -740px;
+        top: 15px;
     }
 
     .logos_img {
@@ -240,19 +240,19 @@ nav ul {
     }
 
     .header_btn {
-        width: 102px;
-        height: 35px;
+        width: 162px;
+        height: 55px;
         position: absolute;
-        left: -720px;
+        left: -460px;
         top: 70px;
     }
 
     .header_text_h {
-        width: 264px;
+        width: 464px;
         height: 192px;
-        font-size: 26px;
-        top: 120px;
-        right: 420px;
+        font-size: 36px;
+        top: 130px;
+        right: 130px;
         text-align: center;
     }
 
@@ -261,22 +261,29 @@ nav ul {
         height: 48px;
         font-size: 16px;
         position: absolute;
-        top: 237px;
-        left: 15px;
+        top: 277px;
+        left: 175px;
         text-align: center;
     }
 
     .header_text_btn {
-        width: 172px;
-        height: 45px;
+        width: 222px;
+        height: 55px;
         position: absolute;
         z-index: 1;
-        top: 510px;
-        left: 120px;
+        top: 670px;
+        left: 270px;
     }
 
     .black_text {
-        display: none;
+        width: 780px;
+        height: 112px;
+        position: absolute;
+        bottom: 148px;
+        left: 10px;
+        z-index: 1;
+        text-align: center;
+
     }
 
     .first_cards {
@@ -286,40 +293,41 @@ nav ul {
 
     .first {
         position: absolute;
-        bottom: -10px;
+        bottom: -70px;
         left: 60px;
     }
 
     .second1 {
         position: absolute;
-        left: 300px;
-        bottom: -10px;
+        left: 570px;
+        bottom: -70px;
     }
 
     .third1 {
         position: absolute;
         left: 70px;
-        bottom: -180px;
+        bottom: -280px;
     }
 
     .fourth2 {
         position: absolute;
-        bottom: -180px;
-        left: 310px;
+        bottom: -280px;
+        left: 560px;
         z-index: 1;
     }
 
     .first_section_text_h {
         position: absolute;
-        top: 330px;
-        left: 40px;
+        top: 490px;
+        left: 220px;
     }
 
     .first_section_text_p {
-            position: absolute;
-          top: 290px;
-          left: 150px;
-        }
+        position: absolute;
+        top: 450px;
+        left: 320px;
+
+    }
 
     .first_section_btns {
         display: none;
@@ -329,18 +337,80 @@ nav ul {
         width: 399px;
         height: 541px;
         position: absolute;
-        top: 400px;
-        left: 20px;
+        top: 560px;
+        left: 220px;
     }
-.btn3{
-    width: 620px;
-    height: 63px;
-    /* background-color: aqua; */
-    position: absolute;
-    top: 900px;
-    text-align: center;
-}
-    /* .second1 {} */
+
+    .btn3 {
+        width: 620px;
+        height: 63px;
+        position: absolute;
+        top: 1000px;
+        border: 1px solid rgba(150, 49, 125, 1);
+        left: 100px;
+    }
+
+    .btn3_p {
+        position: absolute;
+        left: 220px;
+        top: 20px;
+        color: rgba(150, 49, 125, 1);
+    }
+
+    .first_section_second_text_p {
+        width: 413px;
+        height: 26px;
+        position: absolute;
+        top: 455px;
+        left: 50px;
+    }
+
+    .cross {
+        position: absolute;
+        top: 450px;
+    }
+
+    .section_text {
+        position: absolute;
+        bottom: -1540px;
+        left: -175px;
+    }
+
+    .first_textr_p {
+        position: absolute;
+        top: 60px;
+    }
+
+    .first_text_p2 {
+        position: absolute;
+        right: 650px;
+    }
+
+    .second_text_p2 {
+        position: absolute;
+        right: 650px;
+    }
+
+    .third_text_p2 {
+        position: absolute;
+        right: 630px;
+    }
+
+    .fourth_text_p2 {
+        position: absolute;
+        right: 650px;
+    }
+
+    .fifth_text_p2 {
+        position: absolute;
+        right: 630px;
+    }
+
+    .sixth_text_P2 {
+        position: absolute;
+        right: 630px;
+
+    }
 }
 
 .first_cards {
@@ -679,7 +749,6 @@ hr {
 .third_section {
     width: 1440px;
     height: 1034px;
-    background-color: rgba(211, 211, 211, 0.459);
     padding: 50px 135px;
 }
 
@@ -844,4 +913,378 @@ hr {
 .fifth_section {
     width: 1440px;
     height: 235px;
+}
+
+.fifth_section_card {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 135px;
+    border: 1px solid #444;
+    border-radius: 15px;
+    background-color: #66666656;
+}
+
+.fifth_section_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fifth_section_text_p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.paragraf {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.paragraf_span {
+    font-size: 18px;
+}
+
+.p {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sixth_section {
+    width: 1157px;
+    height: 450px;
+    padding: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 90px;
+}
+
+.sixth_section_text_h {
+    width: 329px;
+    height: 120px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.sixth_section_text_p {
+    width: 301px;
+    height: 81px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn3 {
+    width: 722px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    left: 436px;
+    top: -1px;
+    border: 1px solid #666;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn_3_p {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.btn_3 {
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    position: absolute;
+    left: 650px;
+    top: 15px;
+    border: none;
+    background-color: rgba(150, 49, 125, 1);
+}
+
+.btn_plus {
+    font-size: 36px;
+    color: #fff;
+}
+
+.btn4 {
+    width: 722px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    left: 436px;
+    top: 91px;
+    border: 1px solid #666;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.btn5 {
+    width: 722px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    left: 436px;
+    top: 186px;
+    border: 1px solid #666;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn6 {
+    width: 722px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    left: 436px;
+    top: 281px;
+    border: 1px solid #666;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.btn7 {
+    width: 722px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    left: 436px;
+    top: 371px;
+    border: 1px solid #666;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.seventh_section {
+    width: 1440px;
+    height: 381px;
+    background-image: url(/images/фон\ \(2\).png);
+}
+
+.seventh_section_text {
+    width: 1341px;
+    height: 181px;
+    background-color: #fff;
+    position: absolute;
+    top: 5010px;
+    left: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 84px;
+}
+
+.seventh_section_h {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.seventh_section_p {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.seventh_section_span {
+    color: rgba(169, 80, 148, 1);
+}
+
+.seventh_section_btn_1 {
+    width: 326px;
+    height: 69px;
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+    position: absolute;
+    right: 390px;
+    top: 57px;
+    border-radius: 10px;
+}
+
+.seventh_section-a {
+    position: absolute;
+    bottom: 25px;
+    right: 195px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.seventh_section_btn_2 {
+    width: 326px;
+    height: 69px;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 57px;
+    background-color: rgba(169, 80, 148, 1);
+    border-radius: 10px;
+}
+
+.seventh_section_a {
+    position: absolute;
+    bottom: 25px;
+    right: 195px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.eight_section {
+    width: 1186px;
+    height: 580px;
+    display: flex;
+    padding: 35px 60px;
+    gap: 69px;
+}
+
+.eight_section_text {
+    padding: 105px 0px;
+}
+
+.eghit_section_h {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.eight_p1 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.eight_p2 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.eight_p3 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.eight_p4 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.eight_p5 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 35px;
+
+}
+
+.eight_btn2 {
+    width: 162px;
+    height: 55px;
+    border: 1px solid rgba(153, 50, 128, 1);
+    background-color: transparent;
+    border-radius: 15px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(153, 50, 128, 1);
+}
+
+footer {
+    width: 1338px;
+    height: 831px;
+    position: relative;
+}
+
+.logo_third {
+    display: flex;
+    padding: 135px 664px;
+    gap: 5px;
+}
+
+.fixper {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.nav_ul {
+    width: 665px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    gap: 40px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.nav_ul_li_a {
+    color: black;
+}
+
+.footer_text {
+    width: 1338px;
+    height: 120px;
+    background-color: #66666637;
+    margin-left: 50px;
+}
+
+.icon_third {
+    display: flex;
+    padding: 35px 322px;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon_third_text {
+    width: 231px;
+    height: 20px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.btn_footer {
+    width: 92px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 135px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 16px;
+
 }
